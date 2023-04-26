@@ -1,0 +1,4 @@
+function my_array_uniq(array) {
+    new_arr = [... new Set(array)]
+    return new_arr
+};
