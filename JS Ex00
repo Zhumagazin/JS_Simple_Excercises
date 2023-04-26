@@ -1,0 +1,12 @@
+function my_string_index(word, letter) {
+    let index = 0;
+
+    while (index < word.length) {
+        if (word[index] == letter) {
+            return index;
+        }
+        index += 1;
+
+    }
+    return -1;
+}
