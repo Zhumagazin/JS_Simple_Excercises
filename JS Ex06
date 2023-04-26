@@ -1,0 +1,9 @@
+function my_average_mark(array) {
+    index = 0;
+    sum = 0;
+    while (index < array.length) {
+        sum += Object.values(array[index])[1];
+        index++;
+    }
+    return (sum/array.length).toFixed(1);
+}
