@@ -1,0 +1,11 @@
+function my_map_mult_two(mult) {
+    new_arr = [];
+    let index = 0;
+    while (index < mult.length) {
+        x = mult[index] * 2;
+        new_arr.push(x);
+        index++;
+    }
+    return new_arr;
+
+}
