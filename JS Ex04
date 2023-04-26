@@ -1,0 +1,9 @@
+function my_count_on_it(array) {
+    new_arr = [];
+    words = 0;
+    while (words < array.length) {
+        new_arr.push(array[words].length);
+        words++;
+    }
+    return new_arr
+}
